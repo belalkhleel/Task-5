@@ -7,18 +7,43 @@
 .header {
     display: flex;
     gap: 232.5px;
+    padding: 21.84px 0;
+    margin: 0 165px;
+
 
 }
 
 .header ul {
     display: flex;
-
     list-style: none;
 }
 
 .list ul {
     gap: 60px;
 }
-.icons ul{
+
+.icons ul {
     gap: 24px;
+}
+
+.card-section {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    margin: 0 165px;
+
+}
+
+.card {
+    text-align: center;
+    width: calc((100% - 90px) / 4)
+}
+
+img {
+    width: 100%;
+}
+
+.card h2 {
+    margin-top: 23px;
 }
