@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header {
+    display: flex;
+    gap: 232.5px;
+
+}
+
+.header ul {
+    display: flex;
+
+    list-style: none;
+}
+
+.list ul {
+    gap: 60px;
+}
+.icons ul{
+    gap: 24px;
+}
