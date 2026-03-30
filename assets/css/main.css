@@ -59,20 +59,20 @@ html {
     padding: 40px 0;
 
 }
-.card-section .row {
-    gap: 30px;
-}
+
 
 .card {
     text-align: center;
-    width: calc((100% - 90px) / 4)
+    width:100%;
+    /* padding: 20px; */
 }
 
 img {
     width: 100%;
+    display: block;
 }
 .card h2 {
-    margin-top: 23px;
+    padding-top: 23px;
 }
 
 @media only screen and (min-width: 0) and (max-width: 1200px) {
@@ -91,9 +91,7 @@ img {
     .container {
         width: 80%;
     }
-    .card {
-        width: calc((100% - 60px) / 3)
-    }
+
 }
 
 @media only screen and (min-width: 0) and (max-width: 768px) {
@@ -102,22 +100,73 @@ img {
         width: 82%;
     }
     
-    .card {
-        width: calc((100% - 30px) / 2)
-    }
+
 }
 
 @media only screen and (min-width: 0) and (max-width: 600px) {
     .container {
         width: 84%;
     }
-    .card {
-        width: 100%;
-    }
+  
 }
 @media only screen and (min-width: 0) and (max-width: 430px) {
 
     .container {
         width: 86%;
     }
+}
+
+.promo-content {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 24px;
+
+    overflow: auto;
+}
+
+.promo-img {
+    
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+img {
+    width: 100%;
+    display: block;
+}
+.main-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    overflow: auto;
+    width: 100% ;
+
+}
+.card-content{
+    width: 132px;
+}
+
+
+.btn-add-to-cart{
+    background-color: var(--praimary);
+    border: 2px solid var(--dark);
+    color:  var(--dark);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-add-to-cart:hover{
+    background-color: var(--dark);
+    border: 2px solid var(--transparent);
+    color: var(--light);
+}
+
+
+.best-seller {
+margin-top: 1000px;
 }
